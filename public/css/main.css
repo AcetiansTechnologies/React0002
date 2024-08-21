@@ -241,3 +241,17 @@ padding-inline: 20px;
  .copyright_line>ul>li{
    padding-inline: 10px;
  }
+
+ /*tab css*/
+
+.tab___details{
+   display: none;
+}
+.tab___details__visible{
+  display: block;
+  min-height: 100vh;
+  background-color: #dfdddd8e;
+}
+
+
+ /*tab csss ends*/
