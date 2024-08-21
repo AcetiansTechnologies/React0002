@@ -6,6 +6,8 @@ import AiHand from '../images/ai-hand.jpg'
 import AiGlobe from '../images/ai-globle.jpg'
 import CoreServices from '../components/CoreServices'
 import LatestInnovations from '../components/LatestInnovations'
+import InnovationCard from '../components/InnovationCard'
+import StoryCard from '../components/StoryCard'
 
 function Home() {
   return (
@@ -18,6 +20,9 @@ function Home() {
     </div>
     <CoreServices/>
     <LatestInnovations/>
+    <StoryCard/>
+    <StoryCard/>
+    <StoryCard/>
     </div>
     <Footer/>
     </>
