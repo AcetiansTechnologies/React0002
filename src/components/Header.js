@@ -2,18 +2,25 @@ import { LanguageOutlined, Person2Outlined, SearchOffOutlined, SearchOutlined, V
 import React, { useState } from 'react'
 import ProductTabComponent from './ProductTabComponent';
 import SolutionTabComponent from './SolutionTabComponent';
+import Support from './Support';
+import Learn from './Learn'
 
 function Header() {
-  const [tabVisble,setTabVisible]=useState(false);
-  const [currentDetailedTab,setCurrentDetailedTab]=useState('');
-  const handleTabVisiblity=(tab)=>{
-     
-    setTabVisible(!tabVisble);
-    setCurrentDetailedTab(tab)
-  }
+  
+  const [show, setshow] = useState(false);
+
+  
+  const showcomponent = (tab) => {
+    setshow(tab);
+  };
+
+  
+  const hidecomponent = () => {
+    setshow(false);
+  };
   return (
     
-    <>
+    
     <>
     <div className='top__header'>
        <ul>
@@ -28,10 +35,10 @@ function Header() {
         <li>
           <ul>
           <li><img src="https://acetians.com/assets/img/logo1.png" /> </li>
-          <li onClick={()=>handleTabVisiblity("product")}>Product & Services</li>
-          <li  onClick={()=>handleTabVisiblity("solution")}>Solutions </li>
-          <li  onClick={()=>handleTabVisiblity()}>Support</li>
-          <li onClick={()=>handleTabVisiblity()}>Learn</li>
+          <li onClick={() => showcomponent('product')} className='click' >Product & Services</li>
+          <li  onClick={()=>showcomponent("solution")}>Solutions </li>
+          <li  onClick={()=>showcomponent('Support')}>Support</li>
+          <li onClick={()=>showcomponent('Learn')}>Learn</li>
           </ul>
         </li>
         <li>
@@ -42,15 +49,54 @@ function Header() {
         </li>
     </ul>
     </div>
+    {show === 'product' && (
+        <div className='tab-compo'>
 
-    <div className={tabVisble==true?`tab___details__visible`:`tab__details`}>
-      {currentDetailedTab==''&&<></>}
-      {currentDetailedTab=='product'&& <ProductTabComponent/>}
-      {currentDetailedTab=='solution'&& <SolutionTabComponent/>}
+            <div>
+              <ProductTabComponent/>
+            </div>
+            <div>
+            <button className='close-button' onClick={hidecomponent}><img className='close-button-1' src='https://www.svgrepo.com/show/12848/x-symbol.svg'></img></button>
+            </div>
+
+        </div>
+    )}
+      {show === 'solution' && (
+
+        <div className='tab-compo'>
+            <div>
+              <SolutionTabComponent/>
+            </div>
+            <div>
+              <button className='close-button' onClick={hidecomponent}><h1>X</h1></button>
+            </div>
+        </div>
+
+      )}
+      {show === 'Support' && (
+        <div className='tab-compo'> 
+          <div>
+              <Support/>
+            </div>
+            <div>
+              <button className='close-button-1' onClick={hidecomponent}><img className='close-button-1' src='https://www.svgrepo.com/show/12848/x-symbol.svg'></img></button>
+            </div>
+        </div>
+       
+      )}
+      {show === 'Learn' && (
+        <div className='tab-compo'>
+           <div>
+              <Learn/>
+            </div>
+            <div>
+              <button className='close-button' onClick={hidecomponent}><h1>X</h1></button>
+            </div>
+        </div>
           
-    </div>  
+      )}
+      
     </> 
-    </>
   )
 }
 
