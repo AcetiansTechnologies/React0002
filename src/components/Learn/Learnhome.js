@@ -9,7 +9,7 @@ const Learnhome = () => {
           </div>
           <div>
             <p className='head-text'>
-            Cisco Digital Learning
+            Acetians Digital Learning
             </p>
             <p className='text-info'>
             Access our online product, technology, and certification courses, with video lectures and hands-on labs—anytime, anywhere.
@@ -42,7 +42,7 @@ const Learnhome = () => {
             Events
             </p>
             <p className='text-info'>
-            Join us to take advantage of the latest networking opportunities with Cisco customers, partners, employees, and subject-matter experts.
+            Join us to take advantage of the latest networking opportunities with Acetians customers, partners, employees, and subject-matter experts.
             </p>
             <a href='#' className='links-page'>Explore now</a>
           </div>

@@ -33,6 +33,7 @@ ul{
     font-size: 14px !important;
     padding: 5px 40px;
 }
+
 .bottom__header ul{
      display: flex;
      flex-direction: row;
@@ -244,9 +245,7 @@ padding-inline: 20px;
 
  /*tab css*/
 
-.click{
-  opacity: ;
-}
+ 
 
 .close-button{
    background-color: white;
@@ -273,26 +272,27 @@ padding-inline: 20px;
    position: absolute;
    z-index: 0;
    background-color: white;
-   width: 1686px;
+   width: 100%;
    border-bottom: 1px solid lightgray;
+    
 }
 
 .tab {
-   width: 1663px;
+   width: 100%;
    display: flex;
    flex-direction: row;
 }
 
 .tab-list {
-   width: 350px;
+   width: 20vw;
    border-right: 2px solid rgb(206, 206, 206);
    height: 620px;
    justify-content: center;
+   padding-inline-start: 20px;
    padding-top: 30px;
    display: flex;
-   font-size: 20px;
-   line-height: 50px;
-   margin-left: 70px;
+   font-size: 16px;
+   line-height: 50px; 
    padding-bottom: 0;
 
 }
@@ -305,23 +305,29 @@ padding-inline: 20px;
    text-decoration: underline;
 }
 .content-img{
-   width: 350px;
+   width: inherit;
 }
 .main-page-content{
    display: flex;
    flex-direction: row;
-   gap: 20px;
-   margin-left: 70px;
-   margin-top: 50px;
+   gap: 20px; 
+   width:70vw;
+   padding: 20px;
+}
+.main-page-content>div{
+    width: calc(60vw /3);  
+    
 }
 .head-text{
-   font-size: 25px;
+   font-size: 20px;
    margin-bottom: 20px;
-   width:  290px;
+   width: inherit;
+   padding: 5px;
+
 }
 .text-info{
    font-size: 20px;
-   width: 340px;
+   width: inherit;
    color: gray;
    margin-bottom: 40px;
 }

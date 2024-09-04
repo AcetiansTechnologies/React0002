@@ -10,7 +10,7 @@ const Supporthome = () => {
             Product support
             </p>
             <p className='text-info'>
-            Access all documentation, security notices, and quick links to support resources for all supported Cisco products.
+            Access all documentation, security notices, and quick links to support resources for all supported Acetians products.
             </p>
             <a href='#' className='links-page'>View all product support</a>
           </div>

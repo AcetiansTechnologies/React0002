@@ -1,6 +1,6 @@
 import { Business, Support } from "@mui/icons-material";
 import React, { useState } from "react";
-import CiscoCommunity from "./Support/CiscoCommunity";
+import AcetiansCommunity from "./Support/AcetiansCommunity";
 import Toolsandresources from "./Support/Toolsandresources";
 import LicensesandContracts from "./Support/LicensesandContracts";
 import Supporthome from "./Support/Supporthome";
@@ -35,7 +35,7 @@ function ProductTabComponent() {
           <li onClick={() => showcomponent("Licenses and Contracts")}>Licenses and Contracts</li>
           <li onClick={() => showcomponent("Tools and Resources")}>Tools and Resources
           </li>
-          <li onClick={() => showcomponent("Cisco Community")}>Cisco Community
+          <li onClick={() => showcomponent("Acetians Community")}>Acetians Community
           </li>
         </ul>
       </div>
@@ -54,8 +54,8 @@ function ProductTabComponent() {
           <LicensesandContracts />}
         {isshow === "Tools and Resources" &&
           <Toolsandresources />}
-        {isshow === "Cisco Community" &&
-          <CiscoCommunity />}
+        {isshow === "Acetians Community" &&
+          <AcetiansCommunity />}
         
       </div>
     </div>

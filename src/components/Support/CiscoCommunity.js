@@ -1,11 +1,11 @@
 import React from 'react'
 
-const CiscoCommunity = () => {
+const AcetiansCommunity = () => {
   return (
     <div className='main-page-content'>
-      CiscoCommunity
+      AcetiansCommunity
     </div>
   )
 }
 
-export default CiscoCommunity
+export default AcetiansCommunity

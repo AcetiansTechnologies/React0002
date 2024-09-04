@@ -1,9 +1,10 @@
-import { LanguageOutlined, Person2Outlined, SearchOffOutlined, SearchOutlined, VerifiedUserOutlined } from '@mui/icons-material'
+import { MenuOutlined, LanguageOutlined, Person2Outlined, SearchOffOutlined, SearchOutlined, VerifiedUserOutlined } from '@mui/icons-material'
 import React, { useState } from 'react'
 import ProductTabComponent from './ProductTabComponent';
 import SolutionTabComponent from './SolutionTabComponent';
 import Support from './Support';
-import Learn from './Learn'
+import Learn from './Learn' 
+import { Menu } from '@mui/material';
 
 function Header() {
   
@@ -46,6 +47,9 @@ function Header() {
           <li> Explore Acetians </li>
           <li> Search  <SearchOutlined style={{color:'#bebebe'}}/> </li>
           </ul>
+        </li>
+        <li>
+           <MenuOutlined/>
         </li>
     </ul>
     </div>
