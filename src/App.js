@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Services from './pages/Services'
 import Accessnetworking from './components/NetworkBlock/Accessnetworking'
+import ContactUs from './components/Contacts/ContactUs'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>} />
       <Route path='/services' element={<Services/>}/>
-      <Route path = "/accessnetwork" element={<Accessnetworking accessnetworking = "acsessnetwork"/>}/>
+      <Route path = "/accessnetworking" element={<Accessnetworking accessnetworking = "acsessnetworking"/>}/>
+      <Route path = "/contactus" element={<ContactUs contactus = "contactus"/>}/>
     </Routes>
     </Router>
   )

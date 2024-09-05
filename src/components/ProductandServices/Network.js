@@ -4,7 +4,7 @@ import Accessnetworking from '../NetworkBlock/Accessnetworking';
 const Network = () => {
   return (
     <div className='main-page-content'>
-      <Link to='/Accessnetworking'>Access network</Link>
+      <Link to='/accessnetworking'>Access network</Link>
     </div>
   )
 }

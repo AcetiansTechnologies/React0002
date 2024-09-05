@@ -5,6 +5,7 @@ import SolutionTabComponent from './SolutionTabComponent';
 import Support from './Support';
 import Learn from './Learn' 
 import { Menu } from '@mui/material';
+import {Link} from 'react-router-dom';
 
 function Header() {
   
@@ -25,7 +26,7 @@ function Header() {
     <>
     <div className='top__header'>
        <ul>
-        <li>Contact</li>
+        <Link to='/contactus' >Contact</Link>
         <li>Partners</li>
         <li> <Person2Outlined style={{color:'gray'}}/> Login</li>
         <li> <LanguageOutlined  style={{color:'gray'}} /> EN US</li>

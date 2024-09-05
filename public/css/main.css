@@ -346,3 +346,291 @@ padding-inline: 20px;
 
 
  /*tab csss ends*/
+
+
+
+/* ContactUs */
+
+.Contact-Body{
+   padding-left: 6vw;
+   padding-right: 6vw;
+}
+
+.Contact-Nav{
+   display: flex;
+   align-items: center;
+   height: 3.5vw;
+   width: 100vw;
+   border-top: 1px lightgray solid;
+   border-bottom: 1px lightgray solid;
+    
+}
+.Contact-Nav>h4{
+   color: gray;
+   padding-left: 5vw;
+   cursor: pointer;
+   font-weight: 400;
+}
+.Contact-Nav>h4:hover{
+   color: blue;
+   text-decoration: underline;
+}
+.Contact-top{
+   display: flex;
+   flex-direction: column;
+}
+
+.Contact-top>h2{
+   font-size: 50px;
+}
+
+/* Country and Region */
+
+.select-container {
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   padding-top: 5vw;
+ }
+
+ .select-wrapper {
+   position: relative;
+ }
+ 
+ .select-label {
+   position: absolute;
+   top: -0.8rem;
+   left: 1rem;
+   background-color: white;
+   padding: 0 0.5rem;
+   color: #333;
+ }
+ 
+ .select-input {
+   width: 25vw;
+   padding: 0.5rem;
+   border: 1px solid #ccc;
+   border-radius: 12px;
+   padding: 2vw;
+
+ }
+
+ .name-wrapper {
+   position: relative;
+   margin-bottom: 2vw;
+   margin-top: 2vw;
+ }
+ 
+ .name-label {
+   position: absolute;
+   top: -0.8rem;
+   left: 1rem;
+   background-color: white;
+   color: gray;
+   font-size: 15px;
+   font-weight: 100;
+   z-index: 1;
+ }
+ 
+ .name-input {
+   width: 20vw;
+   border: 1px solid #ccc;
+   border-radius: 12px;
+   padding-top: 1.8vw;
+   padding-bottom: 1.8vw;
+
+ }
+
+ /* Email input */
+ .Email-input{
+   width: 42.5vw;
+   border: 1px solid #ccc;
+   border-radius: 12px;
+   padding-top: 1.8vw;
+   padding-bottom: 1.8vw;
+ }
+
+ /* Country */
+
+ .country-input{
+   width: 44vw;
+   border: 1px solid #ccc;
+   border-radius: 12px;
+   padding-top: 1.8vw;
+   padding-bottom: 1.8vw;
+ }
+
+ /* Phone-input */
+
+.phone-input{
+   width: 42.5vw;
+   border: 1px solid #ccc;
+   border-radius: 12px;
+   padding-top: 1.8vw;
+   padding-bottom: 1.8vw;
+}
+
+
+ .Contact-Main{
+   display: flex;
+   flex-direction: row;
+   padding-top: 5vw;
+ }
+
+ .Contact-bodys{
+   width: 50vw;
+ }
+
+
+ .contact-container {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   line-height: 1.6;
+ }
+ 
+ h1 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+ }
+ 
+ h2 {
+   font-size: 1.5rem;
+   margin-top: 1rem;
+   color: #333;
+ }
+ 
+ .contact-section {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+ }
+ .contact-section-2 {
+   display: flex;
+   flex-direction: column;
+   line-height: 5px;
+   font-weight: 200;
+   margin-bottom: 1rem;
+   
+ }
+ .Link-button{
+   text-decoration: underline;
+   color: rgb(83, 83, 185);
+   cursor: pointer;
+ }
+ .Link-button-2{
+   color: #007bff;
+   font-weight: bold;
+   line-height: 3rem;
+   cursor: pointer;
+ }
+
+ .chat-button{
+   background:none;
+   border-radius: 50px;
+   color: #007bff;
+   border: 2px #007bff solid;
+   width: 6vw;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   cursor: pointer;
+   margin-top: 1rem;
+   
+ }
+ 
+ .Link-button {
+   color: #007bff;
+   background: none;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ 
+ .explore-button {
+   margin-right: 10px;
+ }
+
+ .line-container {
+   display: flex;
+   align-items: center;
+   width: 100%;
+}
+
+.line {
+   flex: 1;
+   border: none;
+   border-top: 1px solid #000;
+   margin: 0;
+}
+
+.text {
+   padding: 0 10px;
+   white-space: nowrap;
+}
+ /* Contact us body 2 */
+
+ .request-form-container {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+   line-height: 1.6;
+   padding-top: 4vw;
+ }
+ 
+ h1 {
+   font-size: 2rem;
+   margin-bottom: 1rem;
+ }
+ 
+ p {
+   margin-bottom: 1rem;
+ }
+ 
+ .request-form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+ }
+ .login-button{
+  
+   border: 2px #007bff solid;
+   background: none;
+   color: #007bff;
+   border-radius: 1vw;
+   width: 21.5vw;
+   padding: 18px;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+ }
+ label {
+   font-weight: bold;
+   margin-bottom: 0.5rem;
+ }
+ 
+ input, select, textarea {
+   padding: 0.5rem;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   width: 100%;
+ }
+ 
+ textarea {
+   resize: vertical;
+   height: 100px;
+ }
+ 
+ .submit-button {
+   background-color: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   font-size: 1rem;
+   border-radius: 5px;
+   cursor: pointer;
+   margin-top: 10px;
+   width: 15vw;
+ }
+ 
+ .submit-button:hover {
+   background-color: #0056b3;
+ }
+ 
+ 
