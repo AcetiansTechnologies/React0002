@@ -395,6 +395,7 @@ padding-inline: 20px;
 
  .select-wrapper {
    position: relative;
+   z-index: 0;
  }
  
  .select-label {
@@ -408,7 +409,6 @@ padding-inline: 20px;
  
  .select-input {
    width: 25vw;
-   padding: 0.5rem;
    border: 1px solid #ccc;
    border-radius: 12px;
    padding: 2vw;
@@ -516,6 +516,11 @@ padding-inline: 20px;
    text-decoration: underline;
    color: rgb(83, 83, 185);
    cursor: pointer;
+   transition: 0.15s;
+ }
+ .Link-button:hover{
+   color: #0056b3;
+   font-weight: bold;
  }
  .Link-button-2{
    color: #007bff;
@@ -528,7 +533,7 @@ padding-inline: 20px;
    background:none;
    border-radius: 50px;
    color: #007bff;
-   border: 2px #007bff solid;
+   border: 1px #007bff solid;
    width: 6vw;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -599,6 +604,7 @@ padding-inline: 20px;
    padding: 18px;
    margin-top: 1rem;
    margin-bottom: 1rem;
+   cursor: pointer;
  }
  label {
    font-weight: bold;
@@ -633,4 +639,10 @@ padding-inline: 20px;
    background-color: #0056b3;
  }
  
+ .suraj{
+   background-color: #000;
+   color: wheat;
+   z-index: 1;
+   padding-bottom: -100px;
+ }
  

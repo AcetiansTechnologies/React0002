@@ -26,7 +26,7 @@ function Header() {
     <>
     <div className='top__header'>
        <ul>
-        <Link to='/contactus' >Contact</Link>
+        <Link to='/contactus' style={{textDecoration:'none', color:'black'}} >Contact</Link>
         <li>Partners</li>
         <li> <Person2Outlined style={{color:'gray'}}/> Login</li>
         <li> <LanguageOutlined  style={{color:'gray'}} /> EN US</li>
@@ -46,7 +46,7 @@ function Header() {
         <li>
           <ul> 
           <li> Explore Acetians </li>
-          <li> Search  <SearchOutlined style={{color:'#bebebe'}}/> </li>
+          <li nClick={()=>showcomponent('Search')}> Search  <SearchOutlined style={{color:'#bebebe'}}/> </li>
           </ul>
         </li>
         <li>
@@ -54,6 +54,13 @@ function Header() {
         </li>
     </ul>
     </div>
+    
+    {show === 'Search' &&(
+      <div>
+        <input type='search'></input>
+      </div>
+    )}
+
     {show === 'product' && (
         <div className='tab-compo'>
 

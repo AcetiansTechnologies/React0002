@@ -106,19 +106,19 @@ const ContactUs = () => {
               </div>
 
               <div className="contact-section">
-                <h1>Cisco partners</h1>
+                <h1>Acetians partners</h1>
                 <p>
                   Become a partner, locate a partner, get updates, and partner
                   support.
                 </p>
                 <a className="Link-button-2">
-                  Explore Cisco partners &gt;
+                  Explore Acetians partners &gt;
                 </a>
                 <a className="Link-button-2">Get partner support &gt;</a>
               </div>
 
               <div className="contact-section">
-                <h1>Find a Cisco office</h1>
+                <h1>Find a Acetians office</h1>
                 <p>Find offices around the world.</p>
                 <a className="Link-button-2">Locate offices &gt;</a>
               </div>
@@ -133,7 +133,7 @@ const ContactUs = () => {
               <div className="contact-section-2">
                 <h4><strong>Legal mailing address</strong></h4>
                 <br/><br/><br/>
-                <p>Cisco Systems, Inc.</p>
+                <p>Acetians Systems, Inc.</p>
                 <p>170 West Tasman Drive</p>
                 <p>San Jose, California 95134</p>
               </div>
@@ -148,7 +148,7 @@ const ContactUs = () => {
 
               <div>
               <h4>* Required</h4>
-              <button className="login-button">Log in with your Cisco ID</button>
+              <button className="login-button">Log in with your Acetians ID</button>
 
               </div>
 
@@ -296,8 +296,8 @@ const ContactUs = () => {
                         />
                     </div>
                     <div>
-                        I would like Cisco to email me the offers, promotions, and the
-                        latest news regarding Cisco products and services. I know I
+                        I would like Acetians to email me the offers, promotions, and the
+                        latest news regarding Acetians products and services. I know I
                         can unsubscribe at any time. Click here to learn more.
                     </div>
 
@@ -306,6 +306,12 @@ const ContactUs = () => {
                 <button type="submit" className="submit-button">
                   Request a call
                 </button>
+
+
+                <div>
+                  <lable className=" suraj">Email</lable>
+                  <input></input>
+                </div>
               </form>
             </div>
           </div>
