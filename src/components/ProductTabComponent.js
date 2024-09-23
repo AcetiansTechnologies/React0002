@@ -48,7 +48,8 @@ function ProductTabComponent() {
           <li onClick={() => showcomponent("Services")}>Services (CX)</li>
         </ul>
       </div>
-      <div>
+
+      <div className="list-content">
 
         {isshow === false && <ProductAndServicehome />}
 

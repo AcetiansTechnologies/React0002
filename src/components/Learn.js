@@ -44,7 +44,7 @@ function ProductTabComponent() {
         </ul>
       </div>
 
-      <div>
+      <div className="list-content">
 
         {isshow === false &&
           <Learnhome />}
