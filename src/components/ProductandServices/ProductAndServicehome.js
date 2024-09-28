@@ -3,6 +3,7 @@ import React from 'react'
 const ProductAndServicehome = () => {
   return (
     <div className='main-page-content'>
+      
        <div>
             <div>
             <img src='https://www.cisco.com/content/dam/cisco-cdc/site/images/header/en-default-offer-card.jpg' className='content-img'></img>

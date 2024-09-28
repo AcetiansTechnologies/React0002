@@ -3,6 +3,7 @@ import React from 'react'
 const soluction = () => {
   return (
     <div className='main-page-content'>
+      
        <div>
             <div>
             <img src='https://www.cisco.com/content/dam/cisco-cdc/site/images/header/solutions-default-hybrid-work.jpg' className='content-img'></img>

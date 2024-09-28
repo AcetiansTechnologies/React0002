@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import ProductAndServicehome from "./ProductandServices/ProductAndServicehome";
-import Network from "./ProductandServices/Network";
-import Software from "./ProductandServices/Software";
-import IOT from "./ProductandServices/IOT";
-import MobileAndWire from "./ProductandServices/MobileAndWire";
-import Security from "./ProductandServices/Security";
-import Cloud from "./ProductandServices/Cloud";
-import Collaboration from "./ProductandServices/Collaboration";
-import Services from "./ProductandServices/Services";
-import DataCenter from "./ProductandServices/DataCenter";
+import ProductAndServicehome from "../components/ProductandServices/ProductAndServicehome";
+import Network from "../components/ProductandServices/Network";
+import Software from "../components/ProductandServices/Software";
+import IOT from "../components/ProductandServices/IOT";
+import MobileAndWire from "../components/ProductandServices/MobileAndWire";
+import Security from "../components/ProductandServices/Security";
+import Cloud from "../components/ProductandServices/Cloud";
+import Collaboration from "../components/ProductandServices/Collaboration";
+import Services from "../components/ProductandServices/Services";
+import DataCenter from "../components/ProductandServices/DataCenter";
 function ProductTabComponent() {
   const [isshow, setisshow] = useState(false);
   const [Color,setColor] = useState(false);
@@ -36,15 +36,17 @@ function ProductTabComponent() {
             Products and Services Home
           </li>
           <li onClick={() => showcomponent("Networking")}>Networking</li>
-          <li onClick={() => showcomponent("Software")}>Software</li>
+          <li onClick={() => showcomponent("Security")}>Security</li>
+         
           <li onClick={() => showcomponent("IOT")}>Internet of Things (IoT)</li>
           <li onClick={() => showcomponent("MobAndWire")}>
             Mobility and Wireless
           </li>
-          <li onClick={() => showcomponent("Security")}>Security</li>
+        
           <li onClick={() => showcomponent("Collaboration")}>Collaboration</li>
           <li onClick={() => showcomponent("DataCenter")}>Data Center</li>
           <li onClick={() => showcomponent("Cloud")}>Cloud and Computing</li>
+          <li onClick={() => showcomponent("Software")}>Software</li>
           <li onClick={() => showcomponent("Services")}>Services (CX)</li>
         </ul>
       </div>

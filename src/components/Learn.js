@@ -1,15 +1,11 @@
-import { Business, Support } from "@mui/icons-material";
 import React, { useState } from "react";
-import Learnhome from './Learn/Learnhome'
-import Training from './Learn/Training'
-import Certificate from './Learn/Cerificate'
-import Events from './Learn/Events'
-import Videos from'./Learn/Videos'
-import Technologytrends from './Learn/Technologytrends'
-import Learningres from './Learn/Learningres'
-
-
-
+import Learnhome from '../components/Learn/Learnhome'
+import Training from '../components/Learn/Training'
+import Certificate from '../components/Learn/Cerificate'
+import Events from '../components/Learn/Events'
+import Videos from'../components/Learn/Videos'
+import Technologytrends from '../components/Learn/Technologytrends'
+import Learningres from '../components/Learn/Learningres'
 
 
 function ProductTabComponent() {
@@ -62,7 +58,6 @@ function ProductTabComponent() {
           <Technologytrends />}
         {isshow === "Learning Resources and Assets" &&
           <Learningres />}
-        
       </div>
     </div>
   );

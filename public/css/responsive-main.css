@@ -29,6 +29,17 @@
         justify-content: center;
         
     }
+
+    .show-component{
+      display: block;
+    }
+    .old-component{
+      display: none !important;
+      margin-left: 4vw;
+    }
+    .show{
+      display: block !important;
+    }
     
     .bottom__header{ 
         font-size: 14px !important;
@@ -286,13 +297,12 @@
        flex-direction: column;
        position: absolute;
        justify-content: center;
-       align-items: center;
        z-index: 99;
        background-color: white;
        width: 100vw;
+       line-height: 10vw;
        overflow-x: scroll;
        border-bottom: 1px solid lightgray;
-        
     }
     
     .tab {
@@ -301,9 +311,9 @@
     }
     
     .tab-list {
-       width: 90vw;
+       width: 100vw;
        border-right: 2px solid rgb(206, 206, 206);
-       height: 105vw;
+       height: 100vw;
        justify-content: center;
        padding-inline-start: 20px;
        padding-top: 10px;
@@ -311,7 +321,7 @@
        font-size: 10px;
        line-height: 30px; 
        overflow-x: scroll;
-       padding-bottom: 0;
+       padding-bottom: 3vw;
     
     }
     .main-page{
@@ -323,40 +333,54 @@
        text-decoration: underline;
     }
     .content-img{
-       width: 40vw;
+       width: 70vw;
     }
     .main-page-content{
        display: flex;
        flex-direction: column;
-       gap: 20px; 
-       width: 64vw;
+       width: 89.5vw;
        padding: 20px;
        height: 100vw;
        overflow-x: scroll;
     }
-    .main-page-content>div{
-        width: calc(60vw /3);  
-        
-    }
+
+    .main-page-content>div>ul{
+      font-size: 4vw;
+      line-height: 8vw;
+      width: 97vw;
+   }
+   .main-page-content>div>ul>li>p{
+      line-height: 5vw ;
+   }
+   .main-page-content>div>ul>a{
+      text-decoration: none;
+      color: #007fff;
+      font-size: 4vw;
+      
+   
+   }
+   .main-page-content>div>ul>li:hover{
+      text-decoration: underline;
+      
+   }
     .head-text{
-       font-size: 5vw;
-       margin-bottom: 20px;
-       width: inherit;
-       padding: 5px;
+       width: 70vw;
+       font-size: 4vw;
+       margin-bottom: 1vw;
+       font-weight: bold;
     
     }
     .text-info{
-       font-size: 20px;
-       width: inherit;
+       font-size: 4vw;
+       width: 75vw;
        color: rgb(61, 61, 61);
-       margin-bottom: 10vw
-       ;
     }
     .links-page{
        color: #007fff;
        text-decoration: none;
-       font-size: 10px;
-       line-height: 50px;
+       font-size: 15px;
+       width: 100vw;
+       line-height: 5vw;
     
     
     }

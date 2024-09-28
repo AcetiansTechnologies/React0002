@@ -9,10 +9,11 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Home/>} /> 
       <Route path='/services' element={<Services/>}/>
       <Route path = "/accessnetworking" element={<Accessnetworking accessnetworking = "acsessnetworking"/>}/>
       <Route path = "/contactus" element={<ContactUs contactus = "contactus"/>}/>
+      <Route path = "/accessnetworking" element={<Accessnetworking accessnetworking = "accessnetworking"/>}/>
     </Routes>
     </Router>
   )
